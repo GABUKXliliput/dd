@@ -1,0 +1,58 @@
+[
+    {
+		"name": "Hospoda",
+		"replaces": "Monument",
+		"uniqueTo": "Cechy",
+		"culture": 2,
+		"food": 1,
+        "gold":1,
+        
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"] 
+	},
+	{
+		"name": "Pilsner Urkvel",
+        "uniqueTo": "Cechy",
+		"cost": 125,
+		"culture": 3,
+		"isNationalWonder": true,
+		"requiredTech":"Industrialization",
+		"uniques": ["Requires a [Hospoda] in all cities", "[+3 Science] from every [Hospoda] ","[+2 Gold] from every [Pivovar]", "Cost increases by [30] per owned city"],
+		
+	},	{
+		"name": "Mineraologicka stanice",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"uniqueTo":"Trpaslici",
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Hill] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Metalurgicka laborator",
+		"replaces":"Workshop",
+		"uniqueTo":"Trpaslici",
+		"maintenance": 2,
+		"production": 2,
+		"science":2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name":"Trapaslici kovarna" ,
+		"replaces":"Forge",
+		"uniqueTo":"Trpaslici",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]","[+15]% Production when constructing [{Melee} {Land}] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]","[+2 Science] from [Uranium] tiles [in this city]"]
+	}
+]

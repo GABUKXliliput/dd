@@ -1,0 +1,38 @@
+[
+    {
+		"name": "Legionar",
+        "replaces":"Rifleman",
+        "uniqueTo":"Cechy",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+        "uniques":["[+30]% Strength <when fighting in [Hill] tiles>","[+30]% Strength <when fighting in [Snow] tiles>"],
+		"attackSound": "shot"
+	},	{
+		"name": "Hornik",
+		"replaces":"Worker",
+		"uniqueTo":"Trpaslici",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","[-50]% tile improvement construction time"],
+		"cost": 70
+	},{
+		"name": "Leonarduv tank",
+         
+        "uniqueTo":"Lid pokroku",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 16,
+		"cost": 305,
+		"requiredTech": "Chemistry",
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Artillery",
+        "uniques":["[+5]% Strength <when fighting in [Grass land] tiles>","[+30]% Strength <vs cities>"],
+                "promotion": ["Shock I"],
+		"attackSound": "cannon"
+              }
+]

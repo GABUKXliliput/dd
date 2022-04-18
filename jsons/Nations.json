@@ -1,0 +1,84 @@
+[
+	{
+		"name": "Cechy",
+		"leaderName": "Karel IV",
+		"adjective": ["Česi"],
+		"startBias": ["Lakes"],
+		"preferredVictoryType": "Cultural",
+		
+
+		"startIntroPart1": ",Zde je země zaslíbená, zvěře a ptáků plná, medem oplývající.",
+		"startIntroPart2": "Pojďme zde vařit pivo.",
+
+		"declaringWar": "Toho bohdá nebylo aby český král utíkal z boje.",
+		"attacked": "Chcípni",
+		"defeated": "Nikdy nezapomeneme jak jste nás podrazili.",
+		"introduction": "Dobrý den celí den. Nechcete na pivo?",
+
+		"neutralHello": "Ahoj",
+		"hateHello": "Dobrý den Pane.",
+
+		"tradeRequest": "Dejte nám tohle a možná dostanete tamto.",
+
+		"outerColor": [0, 0, 255],
+		"innerColor":[255, 0, 0] ,
+		
+		"uniqueName": "Cechy",
+		"uniques": ["[+1 Food] from [Wheat] tiles [in all cities]"],
+		"cities": ["Praha","Plzeň","Ostrava","Brno","Pardubice","Karlovy Vary","Česke Budějovice","Hradec Králove","Ústi nad Labem","Zlín","Jihlava"]
+	},{
+		"name": "Trpaslici",
+		"leaderName": "Hrodgar I",
+		"adjective": ["Hornictvo"],
+		"startBias": ["Hill","Tundra"],
+		"preferredVictoryType": "Scientific",
+		
+
+		"startIntroPart1": "Zde můžeme poklidně ťžit.",
+		"startIntroPart2": "Zde jsou suroviny",
+
+		"declaringWar": "Už teť jste mrtví.",
+		"attacked": "Patříš do hrobu.",
+		"defeated": "Hrozba z podzemí vás nemine.",
+		"introduction": "My jsme horníci. Dobrý den.",
+
+		"neutralHello": "Dobrý den pojďte s námi ťežit.",
+		"hateHello": "Co ďeláš v mí šachtě",
+
+		"tradeRequest": "Co takhle uzavřit tento víhodný kontrakt",
+
+		"outerColor": [0, 0, 0],
+		"innerColor":[100, 120, 0] ,
+		
+		"uniqueName": "Mineralogije",
+		"uniques": ["[+1 Production] from [Hill] tiles [in all cities]","[+1 Science] from every [Mine]"],
+		"cities": ["Erebor","Fathen Dûr","Tarnag","Galfni","Buragh","Dalgon","Orthíad","Morie","Nogrod","Belegost"]
+	},{
+		"name": "Lid pokroku",
+		"leaderName": "Leonardo Veliký",
+		"adjective": ["Moudro"],
+		"startBias": ["Grassland"],
+		
+		
+
+		"startIntroPart1": "Zde se budeme rozvíjet.",
+		"startIntroPart2": "Pojďme na to.",
+
+		"declaringWar": "Vaše logika je na úrovnoi červů takže ste mrtí.",
+		"attacked": "Ty jsi Podřadný.",
+		"defeated": "Nadřazenou rasu nelze zničit.",
+		"introduction": "Jsme Nadřazená rasa dobrý den.",
+
+		"neutralHello": "Dobrý den.",
+		"hateHello": "Co chceš? Otročit mi?",
+
+		"tradeRequest": "Vy podřadné rasy rády prý uzavíráte takto nelogické kontrakty.",
+
+		"outerColor": [255, 255, 255],
+		"innerColor":[255, 0, 0] ,
+		
+		"uniqueName": "Velikost osobnosti",
+		"uniques": ["Receive free [Great Scientist] when you discover [Writing]","Receive free [Great Artist] when you discover [Pottery]","Receive free [Great Engineer] when you discover [Mining]","Receive free [Great General] when you discover [Bronze Working]","Receive free [Great Prophet] when you discover [Theology]","Receive free [Great Merchant] when you discover [Currency]","Receive free [Great Artist] when you discover [Future Tech]","Receive free [Great Engineer] when you discover [Future Tech]","Receive free [Great General] when you discover [Future Tech]","Receive free [Great Prophet] when you discover [Future Tech]","Receive free [Great Merchant] when you discover [Future Tech]"],
+		"cities": ["Mrolin","Humial","Okirus","Faliud","Nartian","Altrifod","Gar-I-Glag","Gudranoi","Tetriopol","Kargur"]
+	}
+]
