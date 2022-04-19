@@ -24,15 +24,27 @@
 		"name": "Leonarduv tank",
          
         "uniqueTo":"Lid pokroku",
-		"unitType": "Gunpowder",
+		"unitType": "Siege",
 		"movement": 3,
-		"strength": 16,
+		"strength": 20,
 		"cost": 305,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Artillery",
-        "uniques":["[+5]% Strength <when fighting in [Grass land] tiles>","[+30]% Strength <vs cities>"],
-                "promotion": ["Shock I"],
+        "uniques":["[+20]% Strength <when fighting in [Grass land] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)"],
+                "promotion": ["Drill I"],
 		"attackSound": "cannon"
+              },{
+		"name": "Bombardovaci Balon",
+                "uniqueTo": "Lid pokroku",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 32,
+		"range": 5,
+		"cost": 200,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Fighter",
+		"attackSound": "bombing"
               }
 ]
