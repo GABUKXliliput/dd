@@ -33,7 +33,7 @@
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Artillery",
         "uniques":["[+20]% Strength <when fighting in [Grassland] tiles>","[+100]% Strength <vs cities>","May withdraw before melee ([50]%)","[+30]% <vs [Sword] units>"]
-		"attackSound": "cannon"
+		"attackSound": "Cannon"
               },{
 		"name": "Bombardovaci Balon",
                 "uniqueTo": "Lid pokroku",
