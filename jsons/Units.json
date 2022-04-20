@@ -32,7 +32,7 @@
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Artillery",
-        "uniques":["[+20]% Strength <when fighting in [plains] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)","Must set up to ranged atack","[+30]% <vs [Sword]>"]
+        "uniques":["[+20]% Strength <when fighting in [plains] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)","Must set up to ranged attack","[+30]% <vs [Sword] units>"]
 		"attackSound": "cannon"
               },{
 		"name": "Bombardovaci Balon",
