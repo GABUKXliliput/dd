@@ -25,14 +25,14 @@
          
         "uniqueTo":"Lid pokroku",
 		"unitType": "Siege",
+                "replaces": "cannon",
 		"movement": 3,
-		"strength": 40,
-                "rangedStrenght":30,
+		"strength":45,
 		"cost": 305,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Artillery",
-        "uniques":["[+20]% Strength <when fighting in [plains] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)","Must set up to ranged attack","[+30]% <vs [Sword] units>"]
+        "uniques":["[+20]% Strength <when fighting in [Grassland] tiles>","[+100]% Strength <vs cities>","May withdraw before melee ([50]%)","[+30]% <vs [Sword] units>"]
 		"attackSound": "cannon"
               },{
 		"name": "Bombardovaci Balon",
