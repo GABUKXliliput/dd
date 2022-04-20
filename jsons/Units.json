@@ -26,7 +26,10 @@
         "uniqueTo":"Lid pokroku",
 		"unitType": "Siege",
 		"movement": 3,
-		"strength": 20,
+		"strength": 40,
+                "rangedStrenght":30,
+                "range":2,
+
 		"cost": 305,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
