@@ -28,14 +28,11 @@
 		"movement": 3,
 		"strength": 40,
                 "rangedStrenght":30,
-                "range":2,
-
 		"cost": 305,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
 		"upgradesTo": "Artillery",
-        "uniques":["[+20]% Strength <when fighting in [Grass land] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)"],
-                "promotion": ["Drill I"],
+        "uniques":["[+20]% Strength <when fighting in [plains] tiles>","[+80]% Strength <vs cities>","May withdraw before melee ([50]%)","Must set up to ranged atack","[+30]% <vs [Sword]>"]
 		"attackSound": "cannon"
               },{
 		"name": "Bombardovaci Balon",
