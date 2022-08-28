@@ -1,0 +1,66 @@
+[
+    {
+		"name": "Legionar",
+        "replaces":"Rifleman",
+        "uniqueTo":"Cechy",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+        "uniques":["[+30]% Strength <when fighting in [Hill] tiles>","[+30]% Strength <when fighting in [Snow] tiles>"],
+		"attackSound": "shot"
+	},	{
+		"name": "Hornik",
+		"replaces":"Worker",
+		"uniqueTo":"Trpaslici",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","[-50]% tile improvement construction time"],
+		"cost": 70
+	},{
+		"name": "Leonarduv tank",
+         
+        "uniqueTo":"Lid pokroku",
+		"unitType": "Siege",
+                "replaces": "Cannon",
+		"movement": 3,
+		"strength":45,
+		"cost": 305,
+		"requiredTech": "Chemistry",
+		"obsoleteTech": "Dynamite",
+		"upgradesTo": "Artillery",
+        "uniques":["[+20]% Strength <when fighting in [Grassland] tiles>","[+100]% Strength <vs cities>","May withdraw before melee ([50]%)","[+30]% <vs [Sword] units>"]
+		"attackSound": "cannon"
+              },{
+		"name": "Bombardovaci Balon",
+                "uniqueTo": "Lid pokroku",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 32,
+		"range": 5,
+		"cost": 200,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Fighter",
+		"attackSound": "bombing"
+              },{
+		"name": "stitova hradba",
+		"unitType": "Sword",
+                "uniqueTo":"Trpaslici",
+                "replaces": "Swordsman",
+		"movement": 1,
+		"strength": 18,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 25,
+                "uniques": ["[+20]% Strength <when defending>","[+20]% Strength <vs [Mounted] units>"]
+		"attackSound": "metalhit"
+	},
+       
+]
